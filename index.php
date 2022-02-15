@@ -1,8 +1,8 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "root";
-$dbname = "periodic_table";
+$servername = "localhost"; //CHANGE
+$username = "root"; //CHANGE
+$password = "root"; //CHANGE
+$dbname = "periodic_table"; //CHANGE
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
